@@ -1,0 +1,79 @@
+.hero__container,
+.header__container,
+.warranty__container,
+.team__container,
+.clients__container,
+.footer__container,
+.occupation__container,
+.filter__container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .hero__container,
+  .header__container,
+  .warranty__container,
+  .team__container,
+  .clients__container,
+  .footer__container,
+  .occupation__container,
+  .filter__container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__container,
+  .header__container,
+  .warranty__container,
+  .team__container,
+  .clients__container,
+  .footer__container,
+  .occupation__container,
+  .filter__container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__container,
+  .header__container,
+  .warranty__container,
+  .team__container,
+  .clients__container,
+  .footer__container,
+  .occupation__container,
+  .filter__container {
+    max-width: 1200px;
+  }
+}
+
+.header__container {
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+}
+
+.occupation__container {
+  max-width: 1200px;
+}
+/*# sourceMappingURL=container.css.map */

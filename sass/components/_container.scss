@@ -1,0 +1,61 @@
+%container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
+.hero__container {
+  @extend %container;
+}
+
+.header__container {
+  @extend %container;
+  position: relative;
+}
+
+.warranty__container {
+  @extend %container;
+}
+
+.team__container {
+  @extend %container;
+}
+
+.clients__container {
+  @extend %container;
+}
+
+.footer__container {
+  @extend %container;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    align-items: baseline;
+  }
+}
+
+.occupation__container {
+  @extend %container;
+  max-width: 1200px;
+}
+
+.filter__container {
+  @extend %container;
+}

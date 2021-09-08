@@ -1,0 +1,41 @@
+.community {
+    padding-left: 40px;
+
+    @media screen and (min-width:767px) {
+        display: none;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__items {
+        border-right: 1px solid rgba(33, 33, 33, 0.2);
+        margin-right: 10px;
+
+        &:last-child {
+            margin-right: 0px;
+            border-right: none;
+        }
+    }
+
+    &__link {
+
+        padding-right: 10px;
+        transform: rotate(90deg);
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.83;
+        letter-spacing: 0.02em;
+
+        color: $accent-text-color;
+
+        @media screen and(min-width:480px) {
+            font-size: 18px;
+            line-height: 1.22;
+        }
+
+    }
+}
